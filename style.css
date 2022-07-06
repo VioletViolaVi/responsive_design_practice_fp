@@ -4,6 +4,25 @@ body {
   height: 20rem;
 }
 
+header,
+footer {
+  background-color: green;
+  padding-bottom: 0.1rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+}
+
+#firstSec {
+  margin-top: 8rem;
+}
+
 section {
   text-align: center;
   width: 80%;
@@ -31,35 +50,16 @@ img {
   border: 5px solid green;
 }
 
-.not-fave {
-  border: 5px solid red;
-}
-
-header,
-footer {
-  background-color: green;
-  padding-bottom: 0.1rem;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 90px;
-}
-
-header {
-  position: fixed;
-  top: 0;
-}
-
-#firstSec {
-  margin-top: 8rem;
-}
-
-footer {
-  margin: 5rem 0 0 0;
-}
-
 @media screen and (min-width: 600px) {
   .card {
     width: 250px;
   }
+}
+
+.not-fave {
+  border: 5px solid red;
+}
+
+footer {
+  margin: 5rem 0 0 0;
 }
